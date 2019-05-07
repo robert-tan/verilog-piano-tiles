@@ -1,0 +1,38 @@
+DEPTH = 32; % Memory depth and width are required %
+% DEPTH is the number of addresses %
+WIDTH = 20; % WIDTH is the number of bits of data per word %
+% DEPTH and WIDTH should be entered as decimal numbers %
+ADDRESS_RADIX = HEX; % Address and value radixes are required %
+DATA_RADIX = BIN; % Enter BIN, DEC, HEX, OCT, or UNS; unless %
+ % otherwise specified, radixes = HEX %
+-- Specify values for addresses, which can be single address or range
+% column (2) | colour (3) | note (4) | note len (4) | to next (7) can we underscore? %
+CONTENT BEGIN
+0 : 10100001001000001000; % E %
+1 : 01010000101000001000; % D %
+2 : 00001000001000001000; % C %
+3 : 01010000101000001000; % D %
+4 : 10100001001000001000; % E %
+5 : 10100001001000001000; % E % 
+6 : 10100001011000010000; % E (2) %
+7 : 01010000101000001000; % D %
+8 : 01010000101000001000; % D %
+9 : 01010000111000010000; % D (2) %
+A : 10100001001000001000; % E %
+B : 11101010001000001000; % G %
+C : 11101010011000010000; % G (2) %
+D : 10100001001000001000; % E %
+E : 01010000101000001000; % D %
+F : 00001000001000001000; % C %
+10 : 01010000101000001000; % D %
+11 : 10100001001000001000; % E %
+12 : 10100001001000001000; % E %
+13 : 10100001001000001000; % E %
+14 : 10100001001000001000; % E %
+15 : 01010000101000001000; % D %
+16 : 01010000101000001000; % D %
+17 : 10100001001000001000; % E %
+18 : 01010000101000001000; % D %
+19 : 00001000001001110100; % C %
+END;
+ 
